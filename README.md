@@ -1,11 +1,17 @@
 # Hagen Ranking
 =================
 Percentile ranking based on book "Introductory Statistics: Concepts, Models, and Applications by David W. Stockburger".
+
 Ranking formula for Hagen could be found in [this link](http://www.psychstat.missouristate.edu/introbook/sbk14.htm)
+
 PR=Probability Ranking
+
 Fb=Frequency below -> is the frequency below; the number of scores which are less than the score value of the percentile rank
+
 Fw=Frequency within -> is the frequency within; the number of scores which have the same value as the score value of the percentile rank
+
 N=Number of scores
+
 PR = ((Fb + (1/2 * Fw)) / N) * 100
 
 ---
@@ -19,16 +25,16 @@ Installation instructions
 Screenshots
 ----
 1. Node high-level overview
-![Image main view](https://raw.githubusercontent.com/blacknred0/master/screenshot/main-view.png)
+![Image main view](https://raw.githubusercontent.com/blacknred0/hagen-ranking/master/screenshot/main-view.png)
 
 2. Raw data table
-![Raw data](https://raw.githubusercontent.com/blacknred0/master/screenshot/raw-data.png)
+![Raw data](https://raw.githubusercontent.com/blacknred0/hagen-ranking/master/screenshot/raw-data.png)
 
 3. Within node
-![Node options](https://raw.githubusercontent.com/blacknred0/master/screenshot/within-node.png)
+![Node options](https://raw.githubusercontent.com/blacknred0/hagen-ranking/master/screenshot/within-node.png)
 
 4. Results after processing
-![Results after ranking](https://raw.githubusercontent.com/blacknred0/master/screenshot/results-after-ranking.png)
+![Results after ranking](https://raw.githubusercontent.com/blacknred0/hagen-ranking/master/screenshot/results-after-ranking.png)
 
 ---
 Issues
