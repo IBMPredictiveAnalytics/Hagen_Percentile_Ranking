@@ -15,11 +15,25 @@ N=Number of scores
 PR = ((Fb + (1/2 * Fw)) / N) * 100
 
 ---
+Requirements
+----
+- IBM SPSS Modeler v16 or later
+- ‘R Essentials for SPSS Modeler’ plugin: [Download here][2]
+-  R 2.15.x, 3.1, or 3.2 (depending on version - [use this link][3] to find the correct version)
+
+
+---
 Installation instructions
 ----
 1. Download the extension: [Download](hagenranking.cfe) 
 2. Close IBM SPSS Modeler. Save the .cfe file in the CDB directory, located by default on Windows in "C:\ProgramData\IBM\SPSS\Modeler\16\CDB" or under your IBM SPSS Modeler installation directory.
 3. Restart IBM SPSS Modeler, the node will now appear in the Field Ops palette.
+
+---
+R Packages Used
+---
+
+- [plyr][1]
 
 ---
 Screenshots
@@ -55,3 +69,7 @@ This sample code is licensed under Apache 2.0. Full license text is available in
 Open Source @ IBM
 ----
 Find more open source projects on the [IBM Github Page](http://ibm.github.io/)
+
+[1]: https://cran.r-project.org/web/packages/plyr/
+[2]: https://github.com/IBMPredictiveAnalytics/R_Essentials_Modeler/releases
+[3]:https://developer.ibm.com/predictiveanalytics/downloads/
